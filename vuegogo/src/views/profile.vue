@@ -9,7 +9,7 @@
             <img class="mr-3 user-pict" src="../assets/kiva.jpg" alt="Logo">
             <div class="media-body">
               <h5 class="mt-0">{{ firstname }} {{ lastname }}</h5>
-              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p>
+              <p>{{ deskripsi }}</p>
             </div>
           </div>
         </div>
@@ -27,7 +27,8 @@
     data: function(){
       return {
         firstname : 'Harun',
-        lastname : 'Ar - Rasyid'
+        lastname : 'Ar - Rasyid',
+        deskripsi : 'Pantang Menyerah, Bekerja Tepat dan Cepat'
       }
     },
     component:{}
